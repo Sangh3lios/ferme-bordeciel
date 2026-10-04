@@ -1,0 +1,5 @@
+-- Migration déjà exécutée sur Supabase.
+-- Si vous installez cette version sur une autre base, exécutez les deux
+-- requêtes fournies dans la conversation :
+-- 1) autoriser destination_id NULL et les insertions employé sans destination
+-- 2) recréer le trigger calculate_harvest().
