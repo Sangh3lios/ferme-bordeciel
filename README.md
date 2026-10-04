@@ -35,3 +35,11 @@ Le dossier peut être déployé sur Vercel, Netlify ou un hébergement statique.
 - le calcul du salaire est effectué côté PostgreSQL via trigger
 - RLS limite les employés à leurs propres récoltes
 - l'administrateur peut consulter/modifier les données nécessaires
+
+
+## Version : destination affectée par l'administration
+
+L'employé saisit uniquement le produit et la quantité. La destination reste vide.
+Dans le registre administrateur, une liste déroulante permet d'affecter Local,
+Export ou Garde de Solitude. La base recalcule alors automatiquement la valeur
+commerciale et le salaire.
